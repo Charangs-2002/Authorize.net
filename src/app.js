@@ -1,7 +1,6 @@
-const { sum } = require("./math");
+const { add, subtract, multiply, divide } = require("./math");
 
-const a = 2;
-const b = 3;
-const result = sum(a, b);
-
-console.log(`${a} - ${b} = ${result}`);
+console.log("2 + 3 =", add(2, 3));
+console.log("5 - 3 =", subtract(5, 3));
+console.log("4 * 5 =", multiply(4, 5));
+console.log("10 / 2 =", divide(10, 2));
